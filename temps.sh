@@ -11,7 +11,7 @@ if [ "$1" == "-f" ]; then
 		echo "Current temperatute is $temp_f degrees Fahrenheit"
 	fi	
 else
-	if [ "$2" == "-v" ]; then
+	if [ "$1" == "-v" ]; then
 		echo "$temp_c"
 	else	
 		echo "Current temperature is $temp_c degrees Celsius"
